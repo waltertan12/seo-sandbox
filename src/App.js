@@ -20,12 +20,12 @@ class App extends Component {
                     </div>
                     <nav className="App-navigation">
                         <ul>
-                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/seo-sandbox/">Home</Link></li>
                             <li><Link to="/seo-sandbox/about/">About</Link></li>
                             <li><Link to="/seo-sandbox/topics/">Topics</Link></li>
                         </ul>
                     </nav>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/seo-sandbox/" component={Home} />
                     <Route path="/seo-sandbox/about/" component={About} />
                     <Route path="/seo-sandbox/topics/" component={Topics} />
                 </div>
